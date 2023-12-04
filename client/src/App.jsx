@@ -1,8 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Homepage';
-import Favourites from './pages/favourites';
-import Cart from './pages/cart';
+import Favorites from './pages/Favorites';
+import Cart from './pages/Cart';
 import NavBar from './components/NavBar';
+import LoginSignup from './components/Login-Signup';
 
 
 const App = () => {
@@ -11,8 +12,9 @@ const App = () => {
             <NavBar />
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/favourites" element={<Favourites />} />
+                <Route path="/favorites" element={<Favorites />} />
                 <Route path="/cart" element={<Cart />} />
+                <Route path="/login-signup" element={<LoginSignup />} />
             </Routes>
         </>
     );

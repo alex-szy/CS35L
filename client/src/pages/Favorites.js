@@ -20,7 +20,7 @@ const HomePage = () => {
         {/* Display Items Section */}
         <Container sx={{ marginTop: 4 }}>
         <Typography variant="h5" gutterBottom>
-          Shopping Cart
+          Favorites
         </Typography>
         <Grid container spacing={3}>
           {items.map(item => (

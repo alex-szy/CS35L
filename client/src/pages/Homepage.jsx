@@ -1,8 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { AppBar, Box, Toolbar, Typography, IconButton, TextField, Grid, Card, CardContent, CardMedia, Container } from '@mui/material';
-import { Favorite, ShoppingCart, AccountCircle } from '@mui/icons-material';
-
 import GroceryItem from '../components/GroceryItem'
 
 const HomePage = () => {
